@@ -12,8 +12,9 @@ The Diabetic's Log
 body{
 	background: grey;
 }
-.ui-page{
-	background: black;
+.ui-page {
+    background: url("../images/striped.png");
+    background-repeat: repeat;
 }
 
 .feature{
