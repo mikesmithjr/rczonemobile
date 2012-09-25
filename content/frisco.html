@@ -37,7 +37,6 @@
 
 	</head>
 	<body>
-
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
@@ -47,64 +46,55 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 		  }(document, 'script', 'facebook-jssdk'));
 		</script>
+		<!-- Page Content Lives here. -->
+		<!--Main Page-->
+		<div data-role="page" id="home">
+			<div data-role="header" data-position="fixed">
+				<h1>R/C Zone</h1>
+			</div>
+			
+			<div data-role="content">
 
-	<div data-role="page" data-add-back-btn="true">
-		<div data-role="header" data-position="fixed">
-			<h1>Meet The Team</h1>
-		</div>
-	
-		<div class= "feature">
-			<a href='index.html' title="Home"><img src= "../images/rczonemobilelogo.png"></a>
-		</div>
+				<div class= "feature">
+					<a href='../index.html' title="Home"><img src= "../images/rczonemobilelogo.png"></a>
+					<a href='../index.html' title="Frisco Store"><img src= "../images/frisco.jpg"></a>
+				</div>	
 
-		<div>
-			<ul data-role="listview" data-inset="false" data-filter="true" data-theme="d">
-				<li>
-					<a href="al.html" title="The Boss">
-					<img src="../images/alprofile2.jpg">
-					<h3>Al Cannan</h3>
-					<h3>Owner</h3>
-					<p>acannan@rczone.biz</p>
-					</a>
-				</li>
-				<li>
-					<a href="mike.html" title="The Man">
-					<img src="../images/mikeprofile.jpg">
-					<h3>Mike Smith</h3>
-					<p>mike@rczone.biz</p>
-					<p>Surface, Airplane, Micro Heli, Airsoft</p>
-					</a>
-				</li>
-				<li>
-					<a href="austin.html" title="The Kid">
-					<img src="../images/austinprofile.jpg">
-					<h3>Austin Parkey</h3>
-					<p>austin</p>
-					<p>Surface, Airplane, Micro Heli</p>
-					</a>
-				</li>						
-			</ul>
-		</div>
+				<p id= "brief"> Frisco's Only Radio Control Hobby Shop</p>
+				<p id= "brief">Be sure to check out and like our Facebook page.</p>
 
-
+				<div class="fb-like" data-href="http://www.facebook.com/rczonefrisco" data-send="true" data-layout="standard" data-width="450" data-show-faces="false" data-colorscheme="dark" data-font="tahoma">
+				</div>
+				<br>
+				<div>
+					<ul data-role="listview" data-inset="true" data-theme="b">
+						<li><a href="newItems.html">New Items</a></li>
+						<li><a href="comingSoon.html">Coming Soon</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="friscomap.html">Map to Our Store</a></li>
+					</ul>
+				</div>
+				
+			</div>
 		<div data-role="footer" data-position="fixed">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="../index.html"  data-icon="home">Home</a></li>
+					<li><a href="../index.html" class="ui-btn-active" data-icon="home">Home</a></li>
 					<li><a href="aboutUs.html" data-icon="info">About Us</a></li>
-					<li><a href="meetTeam.html" class="ui-btn-active" data-icon="grid">Meet the Team</a></li>
+					<li><a href="meetTeam.html" data-icon="grid">Meet the Team</a></li>
 				</ul>
 			</div>		
 		</div>
 	</div>
+	
+	
 
 
 	
 		<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 		<script type="text/javascript" src="js/json.js"></script>
-		<!--<script type="text/javascript" src="js/form.js"></script>-->
-
+		<script type="text/javascript" src="js/form.js"></script>
 
 	</body>
 </html>
