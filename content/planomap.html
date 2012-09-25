@@ -25,7 +25,7 @@
 		<meta http-equiv="cleartype" content="on">
 
 		<!--Page Title-->
-		<title>R/C Zone</title>
+		<title>R/C Zone Plano Location</title>
 
 		<!-- Link CSS -->
 		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
@@ -37,6 +37,7 @@
 
 	</head>
 	<body>
+
 		<div id="fb-root"></div>
 		<script>(function(d, s, id) {
 		  var js, fjs = d.getElementsByTagName(s)[0];
@@ -46,52 +47,46 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 		  }(document, 'script', 'facebook-jssdk'));
 		</script>
-		<!-- Page Content Lives here. -->
-		<!--Main Page-->
-		<div data-role="page" id="home">
-			<div data-role="header" data-position="fixed">
-				<h1>R/C Zone</h1>
-			</div>
-			
-			<div data-role="content">
 
-				<div class= "feature">
-					<a href='index.html' title="Home"><img src= "images/rczonemobilelogo.png"></a>
-				</div>	
+	<div data-role="page" data-add-back-btn="true">
+		<div data-role="header" data-position="fixed">
+			<h1>Map of R/C Zone Plano</h1>
+		</div>
+		
+		<div class= "feature">
+			<a href='../index.html' title="Home"><img src= "../images/rczonemobilelogo.png"></a>
+		</div>
 
-				<p id= "brief">R/C Zone Radio Control Hobby Shop</p>
-				<p id= "brief">Be sure to check out and like our Facebook page.</p>
+		<div class= "feature">
+			<iframe width="425" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=202+West+Parker+Road+%23202C+Plano,+TX+75075&amp;aq=&amp;sll=33.048386,-96.70784&amp;sspn=0.21612,0.308647&amp;ie=UTF8&amp;hq=&amp;hnear=202+W+Parker+Rd,+Plano,+Texas+75075&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=202+West+Parker+Road+%23202C+Plano,+TX+75075&amp;aq=&amp;sll=33.048386,-96.70784&amp;sspn=0.21612,0.308647&amp;ie=UTF8&amp;hq=&amp;hnear=202+W+Parker+Rd,+Plano,+Texas+75075&amp;t=m&amp;z=14&amp;iwloc=A" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+		</div>
 
-				<div class="fb-like" data-href="http://www.facebook.com/rczonefrisco" data-send="true" data-layout="standard" data-width="450" data-show-faces="false" data-colorscheme="dark" data-font="tahoma">
-				</div>
-				<br>
-				<div>
-					<ul data-role="listview" data-inset="true" data-theme="b">
-						<li><a href="content/frisco.html">Frisco Store "The Original"</a></li>
-						<li><a href="content/plano.html">Plano Store "The New Guys"</a></li>
-					</ul>
-				</div>
-				
-			</div>
+		<div class= "feature">
+			<p>202 West Parker Road #202C
+				Plano, TX 75075
+				(972) 422-5386
+			</p>	
+		</div>
+
+
 		<div data-role="footer" data-position="fixed">
 			<div data-role="navbar">
 				<ul>
-					<li><a href="index.html" class="ui-btn-active" data-icon="home">Home</a></li>
-					<li><a href="content/aboutUs.html" data-icon="info">About Us</a></li>
-					<li><a href="content/meetTeam.html" data-icon="grid">Meet the Team</a></li>
+					<li><a href="../index.html"  data-icon="home">Home</a></li>
+					<li><a href="content/aboutUs.html" class="ui-btn-active" data-icon="info">About Us</a></li>
+					<li><a href="meetTeam.html" data-icon="grid">Meet the Team</a></li>
 				</ul>
 			</div>		
 		</div>
 	</div>
-	
-	
 
 
 	
 		<script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
 		<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.js"></script>
 		<script type="text/javascript" src="js/json.js"></script>
-		<script type="text/javascript" src="js/form.js"></script>
+		<!--<script type="text/javascript" src="js/form.js"></script>-->
+
 
 	</body>
 </html>
